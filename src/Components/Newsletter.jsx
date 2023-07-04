@@ -12,7 +12,7 @@ export default function Newsletter() {
     <Col lg={12}>
         <div className="newsletter-bx">
             <Row>
-                <Col lg={12} md={6} xl={5} className='align-items-center'>
+                <Col lg={12} md={6} xl={5}>
                     <h3>Subscribe to our Newsletter</h3>
                 </Col>
                 <Col md={6} xl={7}>

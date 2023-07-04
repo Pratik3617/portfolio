@@ -10,7 +10,7 @@ import colorSharp from "../assets/images/color-sharp.png"
 
 import "../assets/style/Skills.css";
 
-export default function () {
+export default function Skills()  {
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -44,19 +44,19 @@ export default function () {
                         </p>
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className="item">
-                                <img src={meter1} alt="Image"/>
+                                <img src={meter1} alt="web development"/>
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image"/>
+                                <img src={meter2} alt="brand identity"/>
                                 <h5>Brand Identity</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image"/>
+                                <img src={meter3} alt="logo design"/>
                                 <h5>Logo Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image"/>
+                                <img src={meter1} alt="web designer"/>
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
@@ -64,8 +64,7 @@ export default function () {
                 </Col>
             </Row>
         </Container>
-        <img className='background-image-left' src={colorSharp
-        }/>
+        <img className='background-image-left'  alt="background" src={colorSharp}/>
     </section>
   )
 }

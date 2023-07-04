@@ -19,13 +19,13 @@ export default function Footer() {
 
                 <Col sm={6} className='text-center text-sm-end'>
                     <div className="social-icon">
-                        <a href=''>
+                        <a href='#'>
                             <img src={navIcon1} alt="navIcon"/>
                         </a>
-                        <a href=''>
+                        <a href='#'>
                             <img src={navIcon2} alt="navIcon"/>
                         </a>
-                        <a href=''>
+                        <a href='#'>
                             <img src={navIcon3} alt="navIcon"/>
                         </a>
                     </div>

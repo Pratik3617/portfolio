@@ -112,7 +112,7 @@ export default function Projects() {
                 </Col>
             </Row>
         </Container>
-        <img className='background-image-right' src={colorSharp2}/>
+        <img className='background-image-right' alt='background' src={colorSharp2}/>
     </section>
   )
 }
